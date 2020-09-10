@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+// - Icons
+// - [Ionicons](https://ionicons.com)
+
+// - Mobile: 375px - 570px
+
+// - Desktop: 1440px
+
+// - Dark Blue (Dark Mode Elements): hsl(209, 23%, 22%)
+$darkblue: hsl(209, 23%, 22%);
+
+// - Very Dark Blue (Dark Mode Background): hsl(207, 26%, 17%)
+$darkbluebackground: hsl(207, 26%, 17%);
+
+// - Very Dark Blue (Light Mode Text): hsl(200, 15%, 8%)
+$vaerydarkbluelightmodetext: hsl(200, 15%, 8%);
+
+// - Dark Gray (Light Mode Input): hsl(0, 0%, 52%)
+$darkgray: hsl(0, 0%, 52%);
+
+// - Very Light Gray (Light Mode Background): hsl(0, 0%, 98%)
+$verylightgray: hsl(0, 0%, 98%);
+
+// - White (Dark Mode Text & Light Mode Elements): hsl(0, 0%, 100%)
+$color-w-d: hsl(0, 0%, 100%);
+
+// ### Fonts
+
+// - Family: [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans)
+$fontfamily: 'Nunito Sans', sans-serif;
+
+// - Weights: 300, 600, 800
+$fontweightbig: 300;
+$fontweightbigger: 600;
+$fontweightbiggest: 800;
+
+// Typography
+
+// - Homepage Items: 14px
+$homepage-font-size: 14px;
+
+// - Detail Page: 16px 
+$detailpagesize: 16px;
+

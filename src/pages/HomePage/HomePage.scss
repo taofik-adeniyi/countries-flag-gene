@@ -1,0 +1,19 @@
+@import '../../app.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+    background: $darkbluebackground;
+}
+.flag-card-wrapper {
+    width: 70%;
+    margin: 5px auto 80px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 570px) {
+    .flag-card-wrapper {
+        width: 90%;
+    }
+}

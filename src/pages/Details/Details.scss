@@ -1,0 +1,129 @@
+@import '../../app.scss';
+
+button {
+    margin: 50px 0 20px 14%;
+    padding: 10px;
+    width: 80px;
+    background: $darkblue;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    ion-icon {
+        // position: absolute;
+        padding: 1px 10px 0 0;
+    }
+}
+
+.lg-img-cont {
+    width: 70%;
+    display: flex;
+    margin: 10px auto;
+}
+.large-img {
+    width: 40%;
+    height: 320px;
+}
+main {
+    width: 50%;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    // border: 1px solid #999999;
+    font-family: $fontfamily;
+    font-weight: $fontweightbigger;
+    color: $color-w-d;
+    .one {
+        width: 50%;
+        // background: beige;
+        h2 {
+            font-weight: $fontweightbiggest;
+            color: $color-w-d;
+        }
+        ul {
+            padding: 0;
+            margin: 0;
+            li {
+                list-style-type: none;
+                padding: 5px 0 5px 0;
+                font-size: $detailpagesize;
+            }
+        }
+    }
+    .two {
+        width: 50%;
+        // background: moccasin;
+        margin-top: 75px;
+        ul {
+            padding: 0;
+            margin: 0;
+            li {
+                list-style-type: none;
+                padding: 0 0 10px 0;
+                // font-size: $detailpagesize;
+                font-size: 14px;
+            }
+        }
+    }
+    .three {
+        width: 100%;
+        display: flex;
+        // background: magenta;
+        h4 {
+            margin: 0;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            li {
+                border-radius: 5px;
+                text-align: center;
+                background: $darkblue;
+                list-style-type: none;
+                float: left;
+                padding: 0 10px;
+                // width: 120px;
+                margin: 0 10px 0 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    button {
+        margin: 20px;
+    }
+    .lg-img-cont {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .large-img {
+        width: 90%;
+        height: 320px;
+        margin: 10px auto;
+    }
+    main {
+        width: 100%;
+        // background: yellow;
+        margin: 20px;
+        .one {
+            width: 100%;
+        }
+        .two {
+            // background: red;
+            margin: 40px 0 0 0;
+        }
+        .three {
+            // background: lightsalmon;
+            flex-wrap: wrap;
+            h4 {
+                margin: 10px 0 10px 0;
+                width: 100%;
+            }
+            ul li {
+                margin: 5px 10px 10px 0;
+                // margin: 0;
+            }
+        }
+    }
+}

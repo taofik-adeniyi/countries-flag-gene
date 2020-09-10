@@ -1,0 +1,38 @@
+@import '../../app.scss';
+
+select {
+    margin-top: 2px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: $darkblue;
+    color: whitesmoke;
+    font-size: 12px;
+    option{
+        border: none;
+        outline: none;
+    }
+    option:hover{
+        border: none;
+        outline: none;
+    }
+    option:focus{
+        border: none;
+        outline: none;
+    }
+}
+select:focus {
+    margin-top: 2px;
+    border: none;
+    outline: none;
+}
+select:hover {
+    margin-top: 2px;
+    border: none;
+    outline: none;
+}
+@media only screen and (max-width: 570px) {
+    select {
+        margin: 10px 0 20px 0;
+    }
+}

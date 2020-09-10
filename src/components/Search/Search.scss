@@ -1,0 +1,46 @@
+@import '../../app.scss';
+
+.search-wrapper {
+    display: flex;
+    width: 70%;
+    height: 40px;
+    margin: 30px auto 20px auto;
+    justify-content: space-between;
+}
+.search {
+    background-color: $darkblue;
+    border-radius: 5px;
+    width: 33%;
+    ion-icon {
+        margin: 13px;
+        color: white;
+        position: absolute;
+    }
+    input {
+        // position: relative;
+        font-size: $homepage-font-size;
+        font-weight: $fontweightbigger;
+        color: $darkgray;
+        background: transparent;
+        border: none;
+        margin: 13px 0 13px 40px;
+    }
+    input:focus{
+        outline: none;
+        border:none;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .search-wrapper {
+        width: 90%;
+        // background: lightsalmon;
+        margin: 30px auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .search {
+        width: 100%;
+        // background: yellow;
+    }
+}

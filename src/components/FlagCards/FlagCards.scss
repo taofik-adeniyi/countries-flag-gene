@@ -1,0 +1,35 @@
+@import '../../app.scss';
+
+.flag-container {
+    width: 210px;
+    margin: 10px 0 50px 0;
+    min-height: 150px;
+    background: $darkblue;
+    border-radius: 5px;
+    cursor: pointer;
+    .flag-image {
+        width: 100%;
+        height: 150px;
+        border-radius: 5px 5px 0 0;
+    }
+    .holder {
+        padding: 20px;
+        font-size: $homepage-font-size;
+        color: $color-w-d;
+        font-family: $fontfamily;
+        .country-name {
+            font-weight: $fontweightbigger;
+        }
+        .list-info {
+            padding: 10px 0 10px 0;
+            font-size: 13px;
+            font-weight: $fontweightbig;
+        }
+    }
+}
+@media only screen and (max-width: 570px) {
+    .flag-container {
+        width: 90%;
+        margin: 30px auto 0 auto;
+    }
+}

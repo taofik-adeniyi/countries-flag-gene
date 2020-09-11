@@ -3,7 +3,9 @@ import './FlagCards.scss'
 import { useHistory } from 'react-router-dom'
 
 function FlagCards() {
+    
     const history = useHistory()
+
     return (
         <React.Fragment>
             <div onClick={() => {

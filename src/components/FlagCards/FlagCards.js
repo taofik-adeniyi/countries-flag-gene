@@ -5,7 +5,6 @@ import { useHistory } from 'react-router-dom'
 
 function FlagCards() {
     const history = useHistory()
-    // const  [posts, setPosts] = useState([])
     const [countries, setCountries] = useState([])
     
     useEffect(() => {
